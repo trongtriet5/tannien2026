@@ -55,6 +55,10 @@
     padding: var(--section-padding) 0;
     position: relative;
     overflow: hidden;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .fade-in-up {

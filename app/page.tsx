@@ -10,10 +10,10 @@ export default function Home() {
     <main>
       <Navbar />
       <HeroSection />
-      <div id="countdown" className="scroll-mt-5"><CountdownTimer /></div>
-      <div id="schedule" className="scroll-mt-5"><Timeline /></div>
-      <div id="activities" className="scroll-mt-5"><EventPlan /></div>
-      <div id="venue" className="scroll-mt-5"><Location /></div>
+      <div id="countdown"><CountdownTimer /></div>
+      <div id="schedule"><Timeline /></div>
+      <div id="activities"><EventPlan /></div>
+      <div id="venue"><Location /></div>
 
       {/* Footer */}
       <footer className="bg-stone-900 text-stone-400 py-16">

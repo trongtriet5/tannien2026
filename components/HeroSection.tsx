@@ -1,6 +1,6 @@
 export default function HeroSection() {
   return (
-    <section className="relative w-full h-[80vh] md:h-[70vh] overflow-hidden bg-[#8b0000]">
+    <section className="relative w-full min-h-screen overflow-hidden bg-[#8b0000]">
       <picture>
         {/* Mobile - Uncomment when hero_mobile.png is available */}
         {/* <source media="(max-width: 639px)" srcSet="/hero_mobile.png" /> */}
