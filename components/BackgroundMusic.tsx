@@ -11,11 +11,11 @@ export default function BackgroundMusic() {
         const playAudio = async () => {
             if (audioRef.current) {
                 try {
-                    audioRef.current.volume = 0.5;
+                    audioRef.current.volume = 0.7; // 70% volume
                     await audioRef.current.play();
                     setIsPlaying(true);
                 } catch (err) {
-                    console.log('Autoplay blocked, waiting for user interaction', err);
+                    // Silently handle autoplay block - this is expected behavior
                     setIsPlaying(false);
                 }
             }
@@ -28,7 +28,9 @@ export default function BackgroundMusic() {
             if (audioRef.current && audioRef.current.paused) {
                 audioRef.current.play().then(() => {
                     setIsPlaying(true);
-                }).catch((e) => console.error("Play failed", e));
+                }).catch(() => {
+                    // Silently handle play failure
+                });
             }
             // Remove listeners after first interaction
             ['click', 'scroll', 'keydown', 'touchstart'].forEach(event =>

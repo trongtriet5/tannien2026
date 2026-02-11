@@ -13,13 +13,14 @@ export default function Location() {
     }, []);
 
     return (
-        <section className="section bg-stone-50">
-            <div className="container">
+        <section className="section relative bg-stone-50">
+            <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: 'url(/backgroud_tet.png)' }} />
+            <div className="container relative z-10">
                 <div className="text-center mb-16 fade-in-up">
-                    <p className="text-xs tracking-[0.2em] uppercase text-stone-400 mb-3">Venue</p>
-                    <h2 className="text-3xl md:text-4xl font-semibold text-stone-900 mb-4">Thông tin sự kiện</h2>
-                    <div className="w-12 h-px bg-stone-300 mx-auto mb-4" />
-                    <p className="text-base text-stone-500 max-w-lg mx-auto">
+                    <p className="text-xs tracking-[0.2em] uppercase text-white/60 mb-3">Venue</p>
+                    <h2 className="text-3xl md:text-4xl font-semibold text-white mb-4">Thông tin sự kiện</h2>
+                    <div className="w-12 h-px bg-white/30 mx-auto mb-4" />
+                    <p className="text-base text-white/80 max-w-lg mx-auto">
                         Thông tin chi tiết về địa điểm và quy định
                     </p>
                 </div>
@@ -100,13 +101,6 @@ export default function Location() {
                                 </div>
                             </div>
                         </div>
-                    </div>
-
-                    {/* Note */}
-                    <div className="mt-8 text-center fade-in-up" style={{ animationDelay: '0.3s' }}>
-                        <p className="text-stone-400 text-xs tracking-wide">
-                            Vui lòng xác nhận tham dự trước ngày 20/02/2026
-                        </p>
                     </div>
                 </div>
             </div>

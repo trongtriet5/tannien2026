@@ -1,0 +1,10 @@
+IMAGE GENERATION FAILED
+
+Due to high server traffic (503 Error), I could not generate the responsive images for you.
+
+The code in `HeroSection.tsx` has been updated to use these images:
+
+1. hero_mobile.png (Recommended size: 1080x1920)
+2. hero_tablet.png (Recommended size: 1536x2048)
+
+Please find or create these images and place them in this folder (`web/public/`). The website will automatically display them once they are present.

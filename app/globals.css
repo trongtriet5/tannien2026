@@ -4,6 +4,8 @@
   :root {
     --stone-50: #FAFAF9;
     --stone-100: #F5F5F4;
+    --stone-200: #E7E5E4;
+    --stone-300: #D6D3D1;
     --stone-900: #1C1917;
     --section-padding: 6rem;
     --container-max: 1100px;
@@ -25,7 +27,12 @@
     -moz-osx-font-smoothing: grayscale;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     font-weight: 600;
     line-height: 1.15;
     letter-spacing: -0.01em;
@@ -46,10 +53,26 @@
 
   .section {
     padding: var(--section-padding) 0;
+    position: relative;
+    overflow: hidden;
   }
 
   .fade-in-up {
     animation: fadeInUp 0.6s ease-out forwards;
+  }
+
+  /* Background Patterns */
+  .bg-dot-pattern {
+    background-color: var(--stone-50);
+    background-image: radial-gradient(var(--stone-200) 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+
+  .bg-grid-pattern {
+    background-color: white;
+    background-image: linear-gradient(var(--stone-100) 1px, transparent 1px),
+      linear-gradient(90deg, var(--stone-100) 1px, transparent 1px);
+    background-size: 40px 40px;
   }
 }
 
@@ -58,6 +81,7 @@
     opacity: 0;
     transform: translateY(20px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
