@@ -11,7 +11,7 @@ export default function BackgroundMusic() {
         const playAudio = async () => {
             if (audioRef.current) {
                 try {
-                    audioRef.current.volume = 0.3;
+                    audioRef.current.volume = 0.5;
                     await audioRef.current.play();
                     setIsPlaying(true);
                 } catch (err) {
