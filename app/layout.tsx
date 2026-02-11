@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Lexend } from "next/font/google";
 import "./globals.css";
+import BackgroundMusic from "@/components/BackgroundMusic";
 
 const lexend = Lexend({
   subsets: ["latin", "vietnamese"],
@@ -20,6 +21,7 @@ export default function RootLayout({
   return (
     <html lang="vi">
       <body className={`${lexend.variable} antialiased bg-stone-50 text-stone-900`}>
+        <BackgroundMusic />
         {children}
       </body>
     </html>
