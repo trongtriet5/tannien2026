@@ -1,12 +1,13 @@
 ﻿'use client';
 
 import { useEffect, useState } from 'react';
+import { TARGET_DATE } from '@/lib/constants';
 
 export default function Location() {
     const [revealVenue, setRevealVenue] = useState(false);
 
     useEffect(() => {
-        const eventDate = new Date('2026-02-26T00:00:00');
+        const eventDate = new Date(TARGET_DATE);
         const now = new Date();
         const diffDays = (eventDate.getTime() - now.getTime()) / (1000 * 60 * 60 * 24);
         setRevealVenue(diffDays <= 3);
