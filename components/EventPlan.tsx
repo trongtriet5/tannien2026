@@ -29,7 +29,7 @@ export default function EventPlan() {
         },
         {
             title: 'Lì xì',
-            description: 'Nhận lộc đầu năm từ Ban Lãnh Đạo',
+            description: 'Nhận lộc may mắn đầu năm ',
             icon: <Coins className="w-6 h-6" />,
         },
     ];

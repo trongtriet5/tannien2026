@@ -35,8 +35,8 @@ function TimelineItem({ event, index, isLast }: { event: { time: string; title: 
     return (
         <div className="flex gap-6 md:gap-8 fade-in-up" style={{ animationDelay: `${index * 0.08}s` }}>
             {/* Time */}
-            <div className="flex-shrink-0 w-16 text-right pt-1">
-                <span className="text-sm font-semibold text-white tabular-nums">{event.time}</span>
+            <div className="flex-shrink-0 w-24 text-right pt-1">
+                <span className="text-sm font-semibold text-white tabular-nums whitespace-nowrap">{event.time}</span>
             </div>
 
             {/* Timeline Line */}
