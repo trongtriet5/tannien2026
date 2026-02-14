@@ -49,8 +49,8 @@ export default function Navbar() {
             href={item.href}
             onClick={(e) => handleClick(e, item.href)}
             className={`px-4 py-1.5 rounded-full text-xs font-medium tracking-wide transition-all duration-200 whitespace-nowrap ${activeSection === item.href.slice(1)
-                ? 'bg-stone-900 text-white'
-                : 'text-stone-500 hover:text-stone-900 hover:bg-stone-100'
+              ? 'bg-stone-900 text-white'
+              : 'text-stone-500 hover:text-stone-900 hover:bg-stone-100'
               }`}
           >
             {item.label}

@@ -8,15 +8,15 @@ import Location from '@/components/Location';
 export default function Home() {
   return (
     <main>
-      <Navbar />
+      {/* <Navbar /> */}
       <HeroSection />
       <div id="countdown"><CountdownTimer /></div>
-      <div id="schedule"><Timeline /></div>
+      {/* <div id="schedule"><Timeline /></div>
       <div id="activities"><EventPlan /></div>
-      <div id="venue"><Location /></div>
+      <div id="venue"><Location /></div> */}
 
       {/* Footer */}
-      <footer className="bg-stone-900 text-stone-400 py-16">
+      {/* <footer className="bg-stone-900 text-stone-400 py-16">
         <div className="container text-center">
           <p className="text-xs tracking-[0.3em] uppercase text-stone-500 mb-2">
             Thịnh Thế Vinh Hoa
@@ -26,7 +26,7 @@ export default function Home() {
             &copy; 2026 Thịnh Thế Vinh Hoa
           </p>
         </div>
-      </footer>
+      </footer> */}
     </main>
   );
 }
