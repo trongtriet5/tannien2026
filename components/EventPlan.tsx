@@ -5,11 +5,13 @@ export default function EventPlan() {
         {
             title: 'Tham quan',
             description: 'Khám phá không gian văn hóa đặc sắc và check-in các địa điểm đẹp',
+            note: '* Lưu ý: mang trang phục sơ mi trắng quần tối màu hoặc chân váy tối màu',
             icon: <Map className="w-6 h-6" />,
         },
         {
             title: 'Teambuilding',
             description: 'Các hoạt động gắn kết tập thể vui nhộn và ý nghĩa',
+            note: '* Lưu ý: mang trang phục thoải mái để vận động mạnh',
             icon: <Users className="w-6 h-6" />,
         },
         {
@@ -19,7 +21,8 @@ export default function EventPlan() {
         },
         {
             title: 'Gala Dinner',
-            description: 'Tiệc tối sang trọng với ẩm thực phong phú (Trang phục sang trọng)',
+            description: 'Tiệc tối sang trọng với ẩm thực phong phú',
+            note: '* Lưu ý: mang trang phục sang trọng',
             icon: <Cake className="w-6 h-6" />,
         },
         {
@@ -54,6 +57,10 @@ export default function EventPlan() {
                             </div>
                             <h3 className="text-lg font-semibold text-stone-900 mb-2">{activity.title}</h3>
                             <p className="text-sm text-stone-600 leading-relaxed">{activity.description}</p>
+                            {/* @ts-ignore */}
+                            {activity.note && (
+                                <p className="text-sm text-stone-500 italic mt-2">{activity.note}</p>
+                            )}
                         </div>
                     ))}
                 </div>

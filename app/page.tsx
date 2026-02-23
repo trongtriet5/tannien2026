@@ -12,7 +12,7 @@ export default function Home() {
       <HeroSection />
       <div id="countdown"><CountdownTimer /></div>
       <div id="schedule"><Timeline /></div>
-      <div id="activities" className="hidden"><EventPlan /></div>
+      <div id="activities"><EventPlan /></div>
       <div id="venue" className="hidden"><Location /></div>
 
       {/* Footer */}
