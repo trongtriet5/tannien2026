@@ -6,7 +6,6 @@ const navItems = [
   { label: 'Đếm ngược', href: '#countdown' },
   { label: 'Lịch trình', href: '#schedule' },
   { label: 'Hoạt động', href: '#activities' },
-  { label: 'Địa điểm', href: '#venue' },
 ];
 
 export default function Navbar() {
