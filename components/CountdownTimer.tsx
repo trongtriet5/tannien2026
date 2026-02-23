@@ -18,7 +18,7 @@ export default function CountdownTimer() {
   }
 
   return (
-    <section className="section bg-white">
+    <section className="section bg-[#f5f5f5]">
       <div className="container">
         <div className="text-center mb-14 fade-in-up">
           <p className="text-xs tracking-[0.2em] uppercase text-stone-400 mb-3">Countdown</p>
