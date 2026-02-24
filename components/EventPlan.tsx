@@ -5,7 +5,7 @@ export default function EventPlan() {
         {
             title: 'Tham quan',
             description: 'Khám phá không gian văn hóa đặc sắc và check-in các địa điểm đẹp',
-            note: 'Mang trang phục sơ mi trắng quần tối màu hoặc chân váy tối màu',
+            note: 'Mang trang phục sơ mi trắng quần tối màu hoặc chân váy tối màu + khăn quàng đỏ',
             icon: <Map className="w-6 h-6" />,
         },
         {
@@ -22,7 +22,7 @@ export default function EventPlan() {
         {
             title: 'Gala Dinner',
             description: 'Tiệc tối sang trọng với ẩm thực phong phú',
-            note: 'Mang trang phục sang trọng',
+            note: 'Mang áo sơ mi trắng quần tối màu hoặc chân váy tối màu',
             icon: <Cake className="w-6 h-6" />,
         },
         {
@@ -33,7 +33,7 @@ export default function EventPlan() {
     ];
 
     return (
-        <section className="section bg-[#f8f9fa]">
+        <section className="section bg-[#f5f5f5]">
             <div className="container relative z-10">
                 <div className="text-center mb-16 fade-in-up">
                     <p className="text-xs tracking-[0.2em] uppercase text-stone-400 mb-3">Activities</p>
