@@ -91,3 +91,19 @@
     transform: translateY(0);
   }
 }
+
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg) translate(-50%, -50%);
+    transform-origin: 0 0;
+  }
+
+  to {
+    transform: rotate(360deg) translate(-50%, -50%);
+    transform-origin: 0 0;
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 60s linear infinite;
+}

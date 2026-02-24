@@ -33,15 +33,29 @@ export default function EventPlan() {
     ];
 
     return (
-        <section className="section bg-[#f5f5f5]">
-            <div className="container relative z-10">
-                <div className="text-center mb-16 fade-in-up">
-                    <p className="text-xs tracking-[0.2em] uppercase text-stone-400 mb-3">Activities</p>
-                    <h2 className="text-3xl md:text-4xl font-semibold text-stone-900 mb-4">Hoạt động sự kiện</h2>
-                    <div className="w-12 h-px bg-stone-300 mx-auto mb-4" />
-                    <p className="text-base text-stone-500 max-w-lg mx-auto">
-                        Bật mí loạt hoạt động "xịn sò" sắp diễn ra
-                    </p>
+        <section className="section relative w-full overflow-hidden bg-[#faf8f5]">
+            {/* Decorative Transition Element from Top */}
+            <div className="absolute top-0 left-0 w-full h-32 bg-gradient-to-b from-[#faf8f5] to-transparent z-20 pointer-events-none" />
+
+            <img
+                src="/img_section_1.jpeg"
+                alt="Event Plan Background"
+                className="absolute inset-0 w-full h-full object-contain object-top md:object-cover md:object-center pointer-events-none opacity-40 md:opacity-100"
+            />
+
+            {/* Decorative Transition Element to Bottom */}
+            <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-[#faf8f5] to-transparent z-20 pointer-events-none" />
+
+            <div className="container relative z-10 pt-10">
+                <div className="text-center mb-16 fade-in-up flex flex-col items-center">
+                    <div className="inline-block bg-white/70 backdrop-blur-lg px-8 py-6 md:px-12 md:py-8 rounded-3xl border border-white/60 shadow-lg">
+                        <p className="text-xs tracking-[0.2em] uppercase text-[#8b0000] font-bold mb-3 drop-shadow-sm">Activities</p>
+                        <h2 className="text-3xl md:text-5xl font-black text-stone-900 mb-4 tracking-wide uppercase drop-shadow-sm">Hoạt động sự kiện</h2>
+                        <div className="w-16 h-1 bg-gradient-to-r from-transparent via-[#8b0000]/30 to-transparent mx-auto mb-4 rounded-full" />
+                        <p className="text-base text-stone-800 max-w-lg mx-auto font-medium">
+                            Bật mí loạt hoạt động "xịn sò" sắp diễn ra
+                        </p>
+                    </div>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
@@ -52,23 +66,23 @@ export default function EventPlan() {
                         return (
                             <div
                                 key={index}
-                                className={`group bg-white p-8 rounded-3xl border border-stone-100/80 shadow-sm hover:shadow-2xl hover:shadow-stone-200/50 hover:border-stone-200 transition-all duration-300 flex flex-col fade-in-up ${isFeatured ? 'md:col-span-2 lg:col-span-2' : 'col-span-1'
+                                className={`group bg-white/85 backdrop-blur-md p-8 rounded-3xl border border-white/60 shadow-lg hover:shadow-2xl hover:shadow-[#8b0000]/15 hover:border-[#8b0000]/30 hover:bg-white/95 hover:-translate-y-2 transition-all duration-500 ease-out flex flex-col fade-in-up ${isFeatured ? 'md:col-span-2 lg:col-span-2' : 'col-span-1'
                                     }`}
                                 style={{ animationDelay: `${index * 0.15}s` }}
                             >
                                 <div className="flex items-start justify-between mb-8">
-                                    <div className="w-14 h-14 rounded-2xl bg-stone-50 group-hover:bg-stone-900 group-hover:text-white transition-colors duration-500 flex items-center justify-center text-stone-600">
+                                    <div className="w-14 h-14 rounded-2xl bg-white shadow-sm border border-stone-100 group-hover:border-transparent group-hover:bg-gradient-to-br group-hover:from-[#8b0000] group-hover:to-red-600 group-hover:text-white group-hover:shadow-lg group-hover:shadow-[#8b0000]/30 group-hover:scale-110 transition-all duration-500 flex items-center justify-center text-stone-600">
                                         {activity.icon}
                                     </div>
-                                    <div className="text-stone-200 group-hover:text-stone-100 transition-colors duration-500">
-                                        <span className="text-5xl font-light opacity-30">
+                                    <div className="text-stone-200/60 group-hover:text-[#8b0000]/20 transition-colors duration-500">
+                                        <span className="text-5xl font-bold opacity-30">
                                             0{index + 1}
                                         </span>
                                     </div>
                                 </div>
 
-                                <div className="flex-1">
-                                    <h3 className="text-xl md:text-2xl font-semibold text-stone-900 mb-3 group-hover:-translate-y-1 transition-transform duration-300">
+                                <div className="flex-1 mt-2">
+                                    <h3 className="text-xl md:text-2xl font-semibold text-stone-900 mb-3 group-hover:text-[#8b0000] transition-colors duration-300">
                                         {activity.title}
                                     </h3>
                                     <p className="text-stone-600 leading-relaxed mb-6 group-hover:-translate-y-1 transition-transform duration-300 delay-75">
