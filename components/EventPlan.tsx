@@ -22,7 +22,7 @@ export default function EventPlan() {
         {
             title: 'Gala Dinner',
             description: 'Tiệc tối sang trọng với ẩm thực phong phú',
-            note: 'Mang áo sơ mi trắng quần tối màu hoặc chân váy tối màu',
+            note: 'Mang trang phục sơ mi trắng quần tối màu hoặc chân váy tối màu + khăn quàng đỏ',
             icon: <Cake className="w-6 h-6" />,
         },
         {
