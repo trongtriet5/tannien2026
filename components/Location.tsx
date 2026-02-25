@@ -7,14 +7,12 @@ export default function Location() {
             <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: 'url(/img_section_1.jpeg)' }} />
             <div className="container relative z-10">
                 <div className="text-center mb-16 fade-in-up flex flex-col items-center">
-                    <div className="inline-block bg-white/70 backdrop-blur-lg px-8 py-6 md:px-12 md:py-8 rounded-3xl border border-white/60 shadow-lg">
-                        <p className="text-xs tracking-[0.2em] uppercase text-[#8b0000] font-bold mb-3 drop-shadow-sm">Location</p>
-                        <h2 className="text-3xl md:text-5xl font-black text-stone-900 mb-4 tracking-wide uppercase drop-shadow-sm">Địa điểm</h2>
-                        <div className="w-16 h-1 bg-gradient-to-r from-transparent via-[#8b0000]/30 to-transparent mx-auto mb-4 rounded-full" />
-                        <p className="text-base text-stone-800 max-w-lg mx-auto font-medium">
-                            Thông tin chi tiết về địa điểm
-                        </p>
-                    </div>
+                    <p className="text-xs tracking-[0.2em] uppercase text-[#8b0000] font-bold mb-3 drop-shadow-sm">Location</p>
+                    <h2 className="text-3xl md:text-5xl font-black text-stone-900 mb-4 tracking-wide uppercase drop-shadow-sm">Địa điểm</h2>
+                    <div className="w-16 h-1 bg-gradient-to-r from-transparent via-[#8b0000]/30 to-transparent mx-auto mb-4 rounded-full" />
+                    <p className="text-base text-stone-800 max-w-lg mx-auto font-medium">
+                        Thông tin chi tiết về địa điểm
+                    </p>
                 </div>
 
                 <div className="max-w-4xl mx-auto">

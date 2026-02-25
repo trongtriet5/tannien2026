@@ -5,7 +5,6 @@ import BackgroundMusic from "@/components/BackgroundMusic";
 
 const lexend = Lexend({
   subsets: ["latin", "vietnamese"],
-  variable: "--font-lexend",
 });
 
 export const metadata: Metadata = {
@@ -20,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="vi">
-      <body className={`${lexend.variable} antialiased bg-stone-50 text-stone-900`}>
+      <body className={`${lexend.className} antialiased bg-stone-50 text-stone-900`}>
         <BackgroundMusic />
         {children}
       </body>

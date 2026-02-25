@@ -18,7 +18,7 @@
   }
 
   body {
-    font-family: var(--font-lexend), -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-family: var(--font-lexend), sans-serif;
     background: var(--stone-50);
     color: var(--stone-900);
     line-height: 1.7;

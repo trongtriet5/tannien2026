@@ -48,14 +48,12 @@ export default function EventPlan() {
 
             <div className="container relative z-10 pt-10">
                 <div className="text-center mb-16 fade-in-up flex flex-col items-center">
-                    <div className="inline-block bg-white/70 backdrop-blur-lg px-8 py-6 md:px-12 md:py-8 rounded-3xl border border-white/60 shadow-lg">
-                        <p className="text-xs tracking-[0.2em] uppercase text-[#8b0000] font-bold mb-3 drop-shadow-sm">Activities</p>
-                        <h2 className="text-3xl md:text-5xl font-black text-stone-900 mb-4 tracking-wide uppercase drop-shadow-sm">Hoạt động sự kiện</h2>
-                        <div className="w-16 h-1 bg-gradient-to-r from-transparent via-[#8b0000]/30 to-transparent mx-auto mb-4 rounded-full" />
-                        <p className="text-base text-stone-800 max-w-lg mx-auto font-medium">
-                            Bật mí loạt hoạt động &quot;xịn sò&quot; sắp diễn ra
-                        </p>
-                    </div>
+                    <p className="text-xs tracking-[0.2em] uppercase text-black/80 font-bold mb-3 drop-shadow-sm">Activities</p>
+                    <h2 className="text-3xl md:text-5xl font-black text-black mb-4 tracking-wide uppercase drop-shadow-sm">Hoạt động sự kiện</h2>
+                    <div className="w-16 h-1 bg-gradient-to-r from-transparent via-black/50 to-transparent mx-auto mb-4 rounded-full" />
+                    <p className="text-base text-black/90 max-w-lg mx-auto font-medium">
+                        Bật mí loạt hoạt động &quot;xịn sò&quot; sắp diễn ra
+                    </p>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">

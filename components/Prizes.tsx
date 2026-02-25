@@ -19,14 +19,12 @@ export default function Prizes() {
             <div className="container relative z-10 pt-16 pb-16">
                 {/* Header */}
                 <div className="text-center mb-16 fade-in-up flex flex-col items-center">
-                    <div className="inline-block bg-white/70 backdrop-blur-lg px-8 py-6 md:px-12 md:py-8 rounded-3xl border border-white/60 shadow-lg">
-                        <p className="text-xs tracking-[0.2em] uppercase text-[#8b0000] font-bold mb-3 drop-shadow-sm">Rewards</p>
-                        <h2 className="text-3xl md:text-5xl font-black text-stone-900 mb-4 tracking-wide uppercase drop-shadow-sm">Cơ cấu giải thưởng</h2>
-                        <div className="w-16 h-1 bg-gradient-to-r from-transparent via-[#8b0000]/30 to-transparent mx-auto mb-4 rounded-full" />
-                        <p className="text-base text-stone-800 max-w-lg mx-auto font-medium">
-                            Nhiều phần quà bất ngờ, hấp dẫn
-                        </p>
-                    </div>
+                    <p className="text-xs tracking-[0.2em] uppercase text-white/80 font-bold mb-3 drop-shadow-sm">Rewards</p>
+                    <h2 className="text-3xl md:text-5xl font-black text-white mb-4 tracking-wide uppercase drop-shadow-sm">Cơ cấu giải thưởng</h2>
+                    <div className="w-16 h-1 bg-gradient-to-r from-transparent via-white/50 to-transparent mx-auto mb-4 rounded-full" />
+                    <p className="text-base text-white/90 max-w-lg mx-auto font-medium">
+                        Nhiều phần quà bất ngờ, hấp dẫn
+                    </p>
                 </div>
 
                 {/* Prize cards */}

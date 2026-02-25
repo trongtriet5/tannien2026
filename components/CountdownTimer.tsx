@@ -34,15 +34,13 @@ export default function CountdownTimer() {
 
       <div className="container relative z-10 pt-10">
         <div className="text-center mb-14 fade-in-up flex flex-col items-center">
-          <div className="inline-block bg-white/70 backdrop-blur-lg px-8 py-6 md:px-12 md:py-8 rounded-3xl border border-white/60 shadow-lg">
-            <p className="text-xs tracking-[0.2em] uppercase text-[#8b0000] font-bold mb-3 drop-shadow-sm">Countdown</p>
-            <h2 className="text-3xl md:text-5xl font-black mb-4 uppercase tracking-wide bg-gradient-to-r from-[#8b0000] to-red-600 bg-clip-text text-transparent drop-shadow-sm">Refresh – Reborn – Rise</h2>
-            <div className="w-16 h-1 bg-gradient-to-r from-transparent via-[#8b0000]/30 to-transparent mx-auto mb-4 rounded-full" />
-            <p className="text-base text-stone-800 max-w-lg mx-auto font-medium">
-              Đếm ngược đến sự kiện<br />
-              <span className="font-semibold text-stone-900 drop-shadow-sm">Thứ Năm, 26 tháng 02 năm 2026</span>
-            </p>
-          </div>
+          <p className="text-xs tracking-[0.2em] uppercase text-[#8b0000] font-bold mb-3 drop-shadow-sm">Countdown</p>
+          <h2 className="text-3xl md:text-5xl font-black mb-4 uppercase tracking-wide bg-gradient-to-r from-[#8b0000] to-red-600 bg-clip-text text-transparent drop-shadow-sm">Refresh – Reborn – Rise</h2>
+          <div className="w-16 h-1 bg-gradient-to-r from-transparent via-[#8b0000]/30 to-transparent mx-auto mb-4 rounded-full" />
+          <p className="text-base text-stone-800 max-w-lg mx-auto font-medium">
+            Đếm ngược đến sự kiện<br />
+            <span className="font-semibold text-stone-900 drop-shadow-sm">Thứ Năm, 26 tháng 02 năm 2026</span>
+          </p>
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 max-w-3xl mx-auto">
