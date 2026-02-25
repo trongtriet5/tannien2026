@@ -6,6 +6,7 @@ const navItems = [
   { label: 'Đếm ngược', href: '#countdown' },
   { label: 'Lịch trình', href: '#schedule' },
   { label: 'Hoạt động', href: '#activities' },
+  { label: 'Giải thưởng', href: '#prizes' },
   { label: 'Địa điểm', href: '#venue' },
 ];
 

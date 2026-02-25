@@ -4,6 +4,7 @@ import CountdownTimer from '@/components/CountdownTimer';
 import Timeline from '@/components/Timeline';
 import EventPlan from '@/components/EventPlan';
 import Location from '@/components/Location';
+import Prizes from '@/components/Prizes';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <div id="countdown"><CountdownTimer /></div>
       <div id="schedule"><Timeline /></div>
       <div id="activities"><EventPlan /></div>
+      <div id="prizes"><Prizes /></div>
       <div id="venue"><Location /></div>
 
       {/* Footer */}
