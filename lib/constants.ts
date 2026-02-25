@@ -7,7 +7,7 @@ export interface TimelineEvent {
 }
 
 export const TIMELINE_EVENTS: TimelineEvent[] = [
-    { time: '12:00 - 13:30', title: 'Tập trung & Khởi hành', description: 'Đón khách tại công ty, di chuyển đến  điểm đến' },
+    { time: '11:30 - 13:00', title: 'Tập trung & Khởi hành', description: 'Đón khách tại công ty, di chuyển đến  điểm đến' },
     { time: '13:30 - 14:30', title: 'Check-in & Thăm quan', description: 'Tham quan các địa điểm' },
     { time: '14:30 - 17:00', title: 'Teambuilding', description: 'Các trò chơi mang tính cạnh tranh cao theo nhóm (Các bạn lưu ý chuẩn bị đồ thoải mái cho phần này nhé !!!)' },
     { time: '17:00 - 18:00', title: 'Tự do vui chơi', description: 'Hoạt động tự do và chuẩn bị cho Gala Dinner' },
