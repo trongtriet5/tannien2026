@@ -35,7 +35,7 @@ export default function Location() {
                                 </div>
                                 <div>
                                     <p className="text-stone-400 text-xs uppercase tracking-wider mb-1">Địa chỉ</p>
-                                    <p className="text-stone-600">344 Tô Hiến Thành, Phường Hòa Hưng, TP HCM</p>
+                                    <p className="text-stone-600">332 Tô Hiến Thành, Phường Hòa Hưng, TP HCM</p>
                                 </div>
                             </div>
                             <div className="mt-auto">
@@ -44,13 +44,13 @@ export default function Location() {
                                         width="100%"
                                         height="100%"
                                         style={{ border: 0 }}
-                                        src="https://maps.google.com/maps?q=344+Tô+Hiến+Thành,+Phường+Hòa+Hưng,+TP+HCM&t=&z=16&ie=UTF8&iwloc=&output=embed"
+                                        src="https://maps.google.com/maps?q=332+Tô+Hiến+Thành,+Phường+Hòa+Hưng,+TP+HCM&t=&z=16&ie=UTF8&iwloc=&output=embed"
                                         loading="lazy"
                                         referrerPolicy="no-referrer-when-downgrade"
                                     ></iframe>
                                     {/* Lớp phủ chặn thao tác trên iframe ở mobile, focus thẳng vào link */}
                                     <a
-                                        href="https://www.google.com/maps/search/?api=1&query=344+Tô+Hiến+Thành,+Phường+Hòa+Hưng,+TP+HCM"
+                                        href="https://www.google.com/maps/search/?api=1&query=332+Tô+Hiến+Thành,+Phường+Hòa+Hưng,+TP+HCM"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="absolute inset-0 z-10 md:hidden"

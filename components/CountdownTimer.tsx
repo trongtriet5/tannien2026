@@ -3,6 +3,7 @@
 import { useCountdown } from '@/lib/hooks/useCountdown';
 import { TARGET_DATE } from '@/lib/constants';
 import { useEffect, useState } from 'react';
+import ParticipantsModal from './ParticipantsModal';
 
 export default function CountdownTimer() {
   const timeLeft = useCountdown(TARGET_DATE);
@@ -44,12 +45,14 @@ export default function CountdownTimer() {
           </div>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 max-w-3xl mx-auto mb-16">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 max-w-3xl mx-auto">
           <TimeUnit value={timeLeft.days} label="Ngày" />
           <TimeUnit value={timeLeft.hours} label="Giờ" />
           <TimeUnit value={timeLeft.minutes} label="Phút" />
           <TimeUnit value={timeLeft.seconds} label="Giây" />
         </div>
+
+        <ParticipantsModal />
 
         {/* Quote Section */}
         <div className="max-w-3xl mx-auto fade-in-up" style={{ animationDelay: '0.2s' }}>
