@@ -7,12 +7,12 @@ export default function Timeline() {
         <section className="section relative bg-stone-50">
             <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: 'url(/backgroud_tet.png)' }} />
             <div className="container relative z-10">
-                <div className="text-center mb-16 fade-in-up">
-                    <p className="text-xs tracking-[0.2em] uppercase text-white/60 mb-3">Schedule</p>
-                    <h2 className="text-3xl md:text-4xl font-semibold text-white mb-4">Chương trình sự kiện</h2>
-                    <div className="w-12 h-px bg-white/30 mx-auto mb-4" />
-                    <p className="text-base text-white/80 max-w-lg mx-auto">
-                        Một ngày "bung xõa" sẽ diễn ra thế nào?
+                <div className="text-center mb-16 fade-in-up flex flex-col items-center">
+                    <p className="text-xs tracking-[0.2em] uppercase text-white/80 font-bold mb-3 drop-shadow-sm">Schedule</p>
+                    <h2 className="text-3xl md:text-5xl font-black text-white mb-4 uppercase tracking-wide drop-shadow-sm">Chương trình sự kiện</h2>
+                    <div className="w-16 h-1 bg-gradient-to-r from-transparent via-white/50 to-transparent mx-auto mb-4 rounded-full" />
+                    <p className="text-base text-white/90 max-w-lg mx-auto font-medium">
+                        Một ngày &quot;bung xõa&quot; sẽ diễn ra thế nào?
                     </p>
                 </div>
 
@@ -49,7 +49,7 @@ function TimelineItem({ event, index, isLast }: { event: { time: string; title: 
 
             {/* Content */}
             <div className="flex-1 pb-8">
-                <h3 className="text-base font-semibold text-white mb-1">{event.title}</h3>
+                <h3 className="text-lg font-semibold text-white mb-1">{event.title}</h3>
                 <p className="text-sm text-white/70">{event.description}</p>
             </div>
         </div>

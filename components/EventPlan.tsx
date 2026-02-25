@@ -53,7 +53,7 @@ export default function EventPlan() {
                         <h2 className="text-3xl md:text-5xl font-black text-stone-900 mb-4 tracking-wide uppercase drop-shadow-sm">Hoạt động sự kiện</h2>
                         <div className="w-16 h-1 bg-gradient-to-r from-transparent via-[#8b0000]/30 to-transparent mx-auto mb-4 rounded-full" />
                         <p className="text-base text-stone-800 max-w-lg mx-auto font-medium">
-                            Bật mí loạt hoạt động "xịn sò" sắp diễn ra
+                            Bật mí loạt hoạt động &quot;xịn sò&quot; sắp diễn ra
                         </p>
                     </div>
                 </div>

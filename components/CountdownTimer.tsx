@@ -35,7 +35,7 @@ export default function CountdownTimer() {
         <div className="text-center mb-14 fade-in-up flex flex-col items-center">
           <div className="inline-block bg-white/70 backdrop-blur-lg px-8 py-6 md:px-12 md:py-8 rounded-3xl border border-white/60 shadow-lg">
             <p className="text-xs tracking-[0.2em] uppercase text-[#8b0000] font-bold mb-3 drop-shadow-sm">Countdown</p>
-            <h2 className="text-3xl md:text-5xl font-black mb-4 uppercase tracking-wider bg-gradient-to-r from-[#8b0000] to-red-600 bg-clip-text text-transparent drop-shadow-sm">Refresh – Reborn – Rise</h2>
+            <h2 className="text-3xl md:text-5xl font-black mb-4 uppercase tracking-wide bg-gradient-to-r from-[#8b0000] to-red-600 bg-clip-text text-transparent drop-shadow-sm">Refresh – Reborn – Rise</h2>
             <div className="w-16 h-1 bg-gradient-to-r from-transparent via-[#8b0000]/30 to-transparent mx-auto mb-4 rounded-full" />
             <p className="text-base text-stone-800 max-w-lg mx-auto font-medium">
               Đếm ngược đến sự kiện<br />
@@ -55,7 +55,7 @@ export default function CountdownTimer() {
         <div className="max-w-3xl mx-auto fade-in-up" style={{ animationDelay: '0.2s' }}>
           <div className="relative bg-white/80 backdrop-blur-md rounded-2xl p-8 md:p-12 border border-white/50 shadow-lg hover:shadow-2xl hover:border-[#8b0000]/20 transition-all duration-700 group">
             {/* Decorative Quote Mark */}
-            <div className="absolute top-6 left-6 text-6xl text-[#8b0000]/10 font-serif leading-none group-hover:text-[#8b0000]/20 group-hover:-translate-y-2 transition-transform duration-500">"</div>
+            <div className="absolute top-6 left-6 text-6xl text-[#8b0000]/10 font-serif leading-none group-hover:text-[#8b0000]/20 group-hover:-translate-y-2 transition-transform duration-500">&quot;</div>
 
             <div className="relative z-10 space-y-4 text-stone-700 leading-relaxed">
               <p className="text-base md:text-lg">
@@ -84,7 +84,7 @@ export default function CountdownTimer() {
             </div>
 
             {/* Decorative Quote Mark */}
-            <div className="absolute bottom-6 right-6 text-6xl text-[#8b0000]/10 font-serif leading-none group-hover:text-[#8b0000]/20 group-hover:translate-y-2 transition-transform duration-500">"</div>
+            <div className="absolute bottom-6 right-6 text-6xl text-[#8b0000]/10 font-serif leading-none group-hover:text-[#8b0000]/20 group-hover:translate-y-2 transition-transform duration-500">&quot;</div>
           </div>
         </div>
       </div>
