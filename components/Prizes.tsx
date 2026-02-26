@@ -54,7 +54,7 @@ export default function Prizes() {
                             </li>
                             <li className="flex items-start gap-4 p-2 rounded-xl hover:bg-stone-50 transition-colors">
                                 <Star className="w-5 h-5 text-orange-400 flex-shrink-0 mt-1" />
-                                <div><span className="font-bold text-stone-800 block">30 Giải Ba</span></div>
+                                <div><span className="font-bold text-stone-800 block">20 Giải Ba</span></div>
                             </li>
                             <li className="flex items-start gap-4 p-2 rounded-xl hover:bg-stone-50 transition-colors">
                                 <Star className="w-5 h-5 text-stone-300 flex-shrink-0 mt-1" />
